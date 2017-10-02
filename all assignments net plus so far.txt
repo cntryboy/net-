@@ -1,0 +1,644 @@
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 1-4	8 Point Value
+
+
+
+
+1. What is a WLAN?
+Wireless network
+2. What network infrastructure implementation is larger than a LAN but smaller than a WAN?
+MAN
+3. What two very short-range PAN technologies might a smartphone support?
+Bluetooth and nfc
+4. What general requirements and limitations should you consider when implementing a basic network?
+Amount of users and expansion. What bottlenecks are there most importantly security
+5. What standard might you need to take account of when implementing a Digital Home Network?
+802.11
+6. What are the two main types of device used in a SCADA topology?
+Field service devices and ics servers
+7. What two types of interfaces are used in a SCADA system?
+Rtu and plc
+8. To which layer of the OSI model does the TCP/IP Internet layer correspond?
+Network
+
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 1-1	12 Points Possible 
+
+1. T/F:  The Session Layer is responsible for passing data to the Network Layer at the lower bound and the Presentation Layer at the upper bound.
+False
+2. What term is used to describe a topology in which computers act as both clients and servers?
+Peer-to-peer
+3. What type of device is used to implement a star topology?
+Switch
+4. You need operations to continue if one link fails. How many links does it take to connect three sites?
+Three
+5. In which sub-layer of the OSI model do network adapter cards operate?
+Data Link 
+6. Which component is responsible for translating the computer's digital signals into electrical or optical signals that travel on network cable?
+Transceiver
+7. Which OSI layer handles the concept of logical addressing? 
+Network Layer
+8. At which OSI layer is the concept of a port number introduced?
+Transport
+9. Which two OSI layers define how multiple computers can simultaneously use the network media without interfering with each other? (choose Two)
+Physical and Data Link
+10. What is characteristic of the bandwidth of a bus topology?
+Shared between everything connected to the bus topology
+
+
+
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 2-1	Point Value 10
+
+
+1. What is the function of the protocol field in an IPv4 header?
+specifies the type of data encapsulated in the packet
+2. Convert the decimal value "72" into binary.
+?01001000??
+3. Convert the binary value "11110010" to decimal.
+242
+4. Once installed, how would you check the TCP/IP configuration?
+ipconfig	
+5. True or false? A router will not forward a packet when the TTL field is zero.
+true
+6. Which of the protocols included with TCP/IP reports messages and errors regarding packet delivery?
+tcp
+7. True or false? The ipconfig utility can be used to empty the DNS cache.
+true
+8. True or false? Receiving an echo reply ICMP message indicates that the link between two hosts is operational.
+true
+9. If you have a workstation that cannot connect to a server what is the first test you could do to establish if the cabling is OK?
+ping
+10. On a UNIX host, which TCP/IP parameters must be defined for the host to be able to communicate with hosts on a remote network?
+subnet
+
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 2-2	Point Value 10
+
+1. What technology or technologies can you use to isolate broadcast domains?
+Router or managed switch
+2. True or false? The IP address 172.24.0.1 is routable over the Internet.
+False it is private
+3. What is a "Class D" address?
+Used for lab environments
+4. Which of the following are class C IP addresses? (Choose four):
+195.243.67.51
+165.247.200.100
+190.234.24.6
+11001101   01110100   00000100   00101110
+11001111   10000001   01111110   10010010
+213.54.53.52
+233.168.24.6
+
+5. If a host is configured with the IP address 10.0.10.22 and mask 255.255.255.192, what is the broadcast address of the subnet?
+10.0.10.63
+
+6. A host is configured with the IP address 10.0.10.22 and subnet mask 255.255.255.192. How many hosts/subnet would this addressing scheme support?
+62
+
+7. A technician is troubleshooting a network and has asked your advice. He is trying to ping 192.168.16.192. The network has been subnetted with the custom mask 255.255.255.224. Why might this return a “Destination host unreachable” message?
+It’s a network address
+
+
+8. Which of the following IP addressing rules is true?
+
+The host ID must be unique on the network
+Network and host IDs cannot be all zeroes
+A network ID can be any number
+A network ID can be 255
+
+9. If the IP address 10.0.10.22 were used with an /18 mask, how many subnets and hosts per subnet would be available?
+4 networks 64 hosts
+10. What is the purpose of IGMP?
+
+used by hosts and adjacent routers on IPv4 networks to establish multicast group memberships
+
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 2-3	8 Point Value
+
+1. What is the advantage of having a DHCP server in a TCP/IP network?
+Automatic configuration of ip addresses dynamic
+
+2. What port should be open on the client for it to negotiate with a DHCP server?
+Port 67
+
+3. True or false? If a client accepts a DHCPOFFER, the DHCPREQUEST packet is broadcast on the network.
+false
+4. If a network adapter is using the address 169.254.1.10 on a host connected to the LAN, what would you suspect?
+Its not getting an ip from dhcp
+
+5. On the DHCP server, what is a range of IP addresses that are available to be leased or assigned to clients called?
+Scopes
+6. When configuring multiple DHCP servers for redundancy, what should you take care to do?
+Only one is broadcasting
+
+7. True or false? DHCP options can be configured on a per-scope basis.
+true
+
+8. What is an RFC 1542 compliant router?
+can be configured to forward DHCP requests
+
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 2-4	10 Points
+
+1. Convert the binary value "1010 0001 1000 1100" to hex.
+41356
+2. Which of the following IPv6 addresses is a valid unicast host address?
+
+fe80::218:8bff:fea7:bd37
+fe80::219:d2ff::7850
+ff02::219:d2ff:fea7:7850
+::/128
+
+3. What is an EUI-64 and how might it be used by IPv6?
+Mac address for first section of ipv6 address
+
+4. In IPv6, how is the loopback address best expressed?
+::1/128
+
+5. In IPv6, how could you distinguish a unicast address with global scope from other addresses?
+Starts with binary 001 or 2 or 3
+6. If assigned a single global IPv6 address prefix, how many bits are available for subnetting?
+16
+7. What type of IPv6 unicast address is not routable?
+Link local
+
+8. What is anycast?
+multicast can be sent to any member of a group but not all of them
+9. In IPv6, how can a client obtain a routable IPv6 address without requiring manual configuration?
+DHCP
+
+10. What is 6to4?
+Merge ipv6 and ipv4
+
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 2-5	14 Points
+
+1. What is a directly connected route?
+Static route in routing table
+2. An entry in a routing table will list the destination network address and netmask plus a gateway and metrics. What other piece of information is required?
+Incoming address range
+3. If a routing protocol carries a subnet mask field for route updates, what feature of IP routing does the routing protocol support?
+Combining networks
+4. True or false? A router would normally have more than one network interface.
+false
+5. What does it mean if a routing protocol converges to a steady state quickly?
+It doesn’t take long
+6. Which general class of routing protocol provides the best convergence performance?
+Which general class of routing protocol provides the best convergence performance
+
+7. What routing metric might you prioritize for a VoIP application?
+latency
+8. What is Shortest Path Bridging?
+ISIS routing and layer 2 switching
+9. What is an ASN and how does it assist route aggregation?
+Autonomous system number, identifies network prefixes
+10. When might an Administrative Distance metric be factored into routing decisions?
+Receives routes form multiple different routing protocols
+11. What is the purpose of HSRP and VRRP?
+Allow multiple physical router appliances to act as the same logical router
+12. How would you view the routing table on a Linux PC?
+sudo nano /etc/hosts
+13. If you receive a "Request timed out" error message when using ping, what would you attempt next?
+Change ttl or use a tracert to see where problem is
+
+14. What is a looking glass site?
+   A server allowing third parties to inspect the routing infrastructure of an autonomous system, assisting troubleshooting.
+
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 3-1 Point Value 8
+
+1. Why would a developer choose to use unreliable delivery over reliable, connection oriented delivery?
+Reduced latency
+
+2. What is the purpose of the Window field in a TCP segment?
+Additionally received data
+3. If the client is in the TIME-WAIT state, is the connection with the server still open?
+no
+4. What are the sizes of TCP and UDP headers?
+Udp 8bytes tcp 20 or more bytes
+5. A function of TCP is to handle flow control. What is the purpose of the flow control function?
+so same packet doesn’t get sent more than needed
+6. True or false? User Datagram Protocol (UDP), like TCP, uses flow control in the sending of data packets.
+false
+7. Which ports are closely associated with web applications?
+80 and 443
+8. If you wanted to investigate connections on your machine, which utility would you use
+Network and sharing center
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 3-2 Point Value
+1. What is a generic top-level domain?
+Last part of a fqdn
+2. What characters are allowed in a DNS host name?
+a-z 0-9 - 
+3. What is the location of the hosts file?
+/etc/
+4. What type of DNS record resolves IPv6 addresses?
+Quad a record
+5. What type of DNS server is likely to accept recursive queries?
+Local name server
+6. What use is a PTR DNS record?
+Maps ip and reverse lookups in spam filtering
+7. What types of DNS records have priority or preference values?
+Mx and srv
+8. What type of DNS enables clients to report a change of IP address to a DNS server?
+Dynamic dns
+9. What is the function of the command “nslookup – 8.8.8.8”?
+look up googles dns server
+10. What command would you use to view cached NetBIOS name entries?
+Nbtstat -c
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 3-3	Point Value
+
+
+
+1. What are the two basic principles of identifying the cause of a problem?
+What has changed and only test one thing at a time
+
+2. After asking the three basic questions of anyone reporting a problem, what should you have determined? 
+recent changes where to find the problem the severity of the problem
+3. In what sort of circumstances should you escalate a problem?
+If your not authorized to solve the problem or you are unable to solve the problem
+4. If you detect a significant increase in noise affecting a cable link, how would you go about determining the cause?
+Find out what has changed
+5. When troubleshooting a cable link, which should you investigate first - the patch cord, permanent link, or network adapter?
+patch cord
+6. You have connected a new computer to a network port and cannot get a link. You have tested the adapter and cable and can confirm that there are no problems. No other users are experiencing problems. The old computer also experienced no problems. What cause would you suspect?
+speed mismatch
+7. Users on a floor served by a single switch cannot get a network connection. What is the best first step?
+Reset the switch
+8. You have pinged the router for the local subnet and confirmed that there is a valid link. The local host cannot access remote hosts however. No other users are experiencing problems. What do you think is the cause?
+the router isn’t set as the default gateway
+9. Following maintenance on network switches, users in one department cannot access the company's internal web and email servers. You can demonstrate basic connectivity between the hosts and the servers by IP address. What might the problem be?
+Problem with dns
+10. Network monitoring software can detect "broadcast storms". What is often the cause of broadcast storms?
+Defective nic or switch or stp isn’t setup correctly
+11. What is an MTU/MTU black hole?
+Router dropping packets exceeding size permitted without notifying the host that sent it
+12. You are planning to reconfigure static and DHCP-assigned IP addresses across the network during scheduled downtime. What preliminary step should you take to minimize connectivity issues when the network is re-opened?
+Clients need to receive a new dhcp lease by shortening the lease in advance or by using a script
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 3-4	13 points possible
+
+
+
+1. What must be installed on a server to use secure (HTTPS) connections?
+Certificate authority
+2. What TCP/IP application protocol is associated with TCP port 21?
+ftp
+3. Why can FTP operating in active mode be difficult to configure with firewalls?
+no way to predict which port will be utilized
+4. What distinguishes TFTP from FTP?
+tftp only uses get and put
+5. What happens if a message sent via SMTP cannot be delivered?
+The server retries and than times out sending non delivery report
+6. What protocol would enable a client to manage mail subfolders on a remote mail server?
+imap
+7. What is the function of a UC gateway?
+Connects multiple technologies
+8. True or false? SIP enables the location of User Agents via a specially formatted URI.
+true
+9. How is jitter mitigated by a VoIP application?
+Buffering packets
+10. How many different traffic classes can be defined by 802.1q/p?
+64 and 8
+11. How does a traffic shaper benefit real-time data applications?
+Can reserve bandwith
+12. What would be a typical scenario for implementing a content switch?
+Using a switch with load balancing in a server farm
+13. What distinguishes a Layer 3 Switch from a router?
+L3 switch uses hardware routing
+
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 3-5	Point Value
+
+
+
+14. Gathering systems' statistics regularly allows systems administrators to identify bottlenecks. Why do they want to do this?
+To identify what is causing bottlenecks and if it has changed
+15. What would be the purpose of configuring thresholds in network monitoring software?
+to get alerts
+16. What is a "top listener" in terms of network monitoring?
+Interfaces receiving the most incoming traffic
+17. What is the purpose of a port scanner?
+Snapshot of how the network is being used
+18. What sort of log would you inspect if you wanted to track web server access attempts?
+syslog
+19. What is the function of SIEM?
+Consolidates alerts
+20. You suspect that a network application is generating faulty packets. What interface metric(s) might help you to diagnose the problem?
+Log analysis
+21. How does an SNMP agent report an event to the management system?
+traps
+22. What TCP/IP application protocol is associated with TCP port 23?
+telnet
+23. Describe some uses for SSH.
+More secure than telnet used for secure communication
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 3-6	Point Value 6
+
+
+
+24. What is a hypervisor?
+Manages virtual machine environments
+25. True or false? It is only possible for VMs to be networked via a virtual switch (vSwitch).
+false
+26. What is the function of a network controller?
+Implement policy decisions
+27. What are the main differences between NAS and SAN?
+Nas access at file level and san at block level
+28. What would be the key difference between purchasing cloud web server instances and a virtual hosted server?
+Web requires inernet
+29. What type of network infrastructure could be located offsite using NaaS - ecommerce web servers or corporate LAN?
+Virtual desktop infrastructure
+
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 4-1	Point Value
+
+
+1. What role do cross-connects play in a structured cabling system?
+Cross connects terminate from each work area
+2. What would be a typical use of an IDF?
+Cross connect two buildings	
+3. What is a 110 block?
+A punch down block
+4. You are working at a telecommunications point and notice that the cables in one patch panel are all red while the ones in another are all blue. What, if anything, does this represent?
+Reds telephone blues data
+5. True or false? Rack units are sold in models of varying width.
+false
+6. You need to install a mixture of 1U servers and switches and 4U servers in a single rack. Would a 4- or 2-post rack be most suitable?
+4 post racck
+7. What is cable management?
+Cable organization
+8. True or false? An ESD wrist strap is designed to provide a personal ground to protect a technician from electrocution when working on energized electrical devices.
+false
+9. What rack-mountable device can provide line filtering and power monitoring features?
+PSU
+10. What rack arrangement makes HVAC systems in a data center work more efficiently?
+Hot aisle cold aisle
+11. What type of door access control would allow entry based on the possession of a cryptographic smart card?
+proximity
+12. What type of door access control prevents "tailgating"?
+Mantrap or turnstyle
+13. What technology could be used to provision security cameras without having to provide a separate circuit for electrical power?
+Ip cameras with poe
+14. What are the main elements of fire emergency procedures?
+Building layout and door locking mechinisms
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 4-2	Point Value
+
+1. What is the measurement standard for wire thickness?
+guage
+2. What is crosstalk?
+Noise from one wire on another
+3. Which categories of unshielded twisted pair cables are certified to carry data transmission faster than 100 Mbps?
+Cat5e cat6 cat6a
+4. True or false? "Cat" standards apply only to wiring.
+false
+5. Why is plenum-rated cable used when cable is run in an area where building air is circulated?
+Non pvc based so theris laess toxins when burning
+6. 100BASE-T transmit pins are 1 and 2. What color-code are the wires terminated to these pins under T568A and T568B?
+Orange white orange green white green
+7. Patch cables are vulnerable to failure because they frequently trail from the PC to the wall socket. What bit of equipment would you use to check that a cable is physically intact?
+Continuity tester
+8. Which pins are used for the receive pair under 100BASE-T?
+3 and 5
+9. What cabling faults would a wire map tester detect?
+Miss wire, reverse
+10. How would you test for excessive attenuation in a network link?
+
+11. What is the reason for making power sum crosstalk measurements when testing a link?
+
+12. Which cable type consists of a core made of solid copper surrounded by insulation, a braided metal shielding, and an outer cover?
+
+13. What surrounds the core of optical fibers in fiber optic cable?
+
+14. What type of fiber optic cable is suited for long distance links?
+
+15. What device enables fiber optic cable to connect to a switch?
+
+
+Lab 4
+Cody Hammar
+
+4. 10.1.0.1
+7. that the amount of information is a lot more
+1. your port is working
+2 you can connect to router
+3 your can connect to router and that dns is working
+4 you can connect to the server
+3 you can connect to the server
+10 you can connect to the server
+4 it wont let you
+5 its not a proper subnet mask because that would be a broadcast
+7 that would be a network address so it wont let you
+
+
+WICHITA TECHNICAL INSTITUTE
+
+
+NAME 1 _____________________________	                        DATE:		_________
+
+NAME 2 _____________________________
+
+LAB ACTIVITY
+
+Wireless Access Point Configuration
+
+
+PURPOSE
+To familiarize you with the configuration parameters of a wireless access point.
+
+PROCEDURE
+
+Prepare:
+In this lab you will be working in pairs with a partner.  One person in the team will configure the wireless access point; the other person will configure and use the wireless NIC.
+
+All persons in the team will be disconnected from the classroom network before starting the installations and all of the lab steps.  DO NOT plug the WAP into the classroom network!
+
+You will need:
+Wireless access point, straight-thru patch cable, antennae for your wireless NICs.
+
+Before starting the lab, the person working with the wireless NIC will need to copy the Vistumbler installation program from the shared folder on the class server. 
+
+WAP Setup
+1. Unbox and assemble the WAP, including antennas and power supply.  Connect a straight-thru patch cable to port 1 on the WAP and plug it into the RJ-45 NIC port on the back of your computer.
+2. Launch Internet Explorer.  Enter 192.168.1.1 into the URL field and press enter.  The WAP configuration utility should appear.  Leave the username blank, and use admin for the password.
+3. Select the Administration tab and select the Factory Defaults submenu.  Select the option to return the WAP to factory settings.  Remove power from the WAP, wait 30 seconds and reapply power.
+4. Reconnect to the WAP configuration utility (see step 2).
+5. On the Setup tab, leave all of the default settings.  Scroll down to the DHCP portion of the display.  Is the DHCP server enabled by default?  ______
+What are the beginning and ending IP addresses of the default DHCP scope?
+_____ and ______
+
+6. Select the Wireless tab and make certain you are on the Basic Wireless Settings submenu.  Select the Manual radio button.  Enter your name in the SSID field.  Change the standard channel to the number assigned to your group and Save the settings.  Take a screenshot of this screen and paste it here.
+   [screenshot]
+7. Still on the Wireless tab, select the Wireless Security submenu.  Select WEP, select 104/128 bit (26 hex digits).  Enter your first and last name into passphrase field.  Click the Generate button.  Copy and paste Key #1 here: _____
+Save settings.
+8. Change to the Wireless MAC Filter tab.  What do think will happen if you enabled this service, clicked the “Permit” option and entered in the MAC address of only one wireless NIC? _______
+(Do not perform this step, just describe what this option would do.)
+
+9. Leave IE open at this point so you can troubleshoot any connection issues.  At the end of the lab, reset the WAP to factory defaults before exiting IE (as in step 3).
+
+Configuring the Wireless NIC
+1. Disconnect your wired NIC from the classroom network.  Ensure that your wireless NIC is enabled and your antennae are attached.
+2. Go to the Network and Sharing Center and select the option to manage your wireless networks.
+3. Add a wireless network and set up the connection for the SSID and WEP settings used by your partner in the WAP setup section of this lab.
+a. Type the SSID in the Network Name field.
+b. Select WEP in the Security Type dropdown box.
+c. Enter the WEP key generated by your partner in the WAP setup in the Security Key field.
+d. Take a screenshot of this completed configuration screen and paste it here:
+[screenshot]
+4. Install Vistumbler.  Launch the program.  If necessary, select the wireless NIC in the interface menu.  Click the Scan APs button and observe the results.  Does Vistumbler accurately report the SSID, channel number, and encryption method (WEP) your partner set up on the WAP?  _____
+Take a screenshot of the Vistumbler display and paste it here:
+[screenshot]
+
+Cleanup
+1. When all of the steps in the lab have been accomplished (each partner has completed their section), make certain you or your partner has restored the WAP to its factory settings, then assist with disassembly of the WAP and return it to its box.  Take all equipment back to the location where the instructor had it staged prior to the lab.  If you do not use your wireless NIC outside the classroom, remove and safely store your antennae (e.g. tape them to the inside of your computer case).
+2. Restore your connections to the classroom network.  Share the screenshots and answers you took with your partner (e.g. via USB key).  Once you have a single digital copy of this document updated to include both team members’ names, all of the requested answers and all screenshots, turn in one copy to the student folder of one of the partners (make SURE both partners’ names are at the top of this document).
+
+Labs Done
+Test Out
+
+
+
+VLAN Lab
+Done in class
+
+Lab 3
+17 Has tcp packets
+5 yes they are still registered
+10 shows server ip
+13 opens
+14 yes
+15 all arp see check who is who
+16 10.1.0.1 dynamic on both
+17 trys to find out who it is because memory is gone.
+Period 3 Lab Sims
+
+Period 4 Lab assignments
+Cody Hammar
+
+Lab 5
+16 no its now on a different subnet
+17 it works because of dns and routing. Captures ARP frames
+19 request timed out
+21 doesn’t reach destination because there is a different subnet
+24 its trying to reach but cant find the location
+
+Lab 6
+7 DHCP
+
+Lab 7 
+Completed
+Lab 8
+
+3 fe80::74da:5111:58:7164%4
+4 link local
+1 08-00-27-4B-BA-38
+2 0200:27ff:fe4b:ba38
+3 2::27ff:fe4b:ba38
+9 yes
+
+Lab 9
+13 no it does not it’s not in the routing tables
+15 yes it works its in the routing tables
+7 yes it worked
+8 yes it worked 
+12 where the traffic was coming from
+3 connecting traffic in reverse
+7 its now in there
+8 yes
+10 yes
+
+Start server, router, gateway
+
+Log into all
+
+Go to gateway
+Open command prompt
+type the following
+
+And
+
+Now type netsh
+Type interface ipv4
+Type show interfaces
+
+Note the idx numbers
+In the following replace idx with the number
+Type set interface idx forwarding=”enabled”
+Repeat for the other idx number of the other connection
+You can type show interface idx     where idx is the number of the connection to verify It is turned on
+Open router
+Login
+Type sudo -s    (so you wont have to type sudo for every command)
+Type nano /etc/network/interfaces
+
+Make the document look match the following and save it with cntrl x than ‘y’ enter enter
+
+
+
+
+Now type ifup eth1
+
+Type ifconfig to verify both eth0 and eth1 show up use shift + pgup to scroll up and shift + pgdn to scroll down
+Type route add -net 192.168.1
+.0 netmask 255.255.255.0 gw 172.16.0.2 dev eth1
+Type /etc/init.d/networking restart
+
+
+
+Test out period 4
+
+
+
+Test Out
+Cody Hammar
+Period 1
+
+
