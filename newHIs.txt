@@ -1,0 +1,221 @@
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 4-3	Point Value 14
+
+
+1. What mechanism does RTS/CTS support?
+802.11 wireless
+2. Which IEEE WLAN standards specify a data transfer rate of up to 54 Mbps?
+802.11 a and g
+3. What options may be available for an 802.11n network that are not supported under 802.11g?
+mimo
+4. True or false? Stations with 802.11ac capable adapters should be assigned to the 5 GHz frequency band.
+True and false?
+5. What is a BSSID?
+Blind ssid
+6. What are the advantages of deploying a wireless mesh topology over an ad hoc one?
+Better and faster connectivity
+7. What type of access point is designed to work with a wireless controller?
+enterprise
+8. True or false? Suppressing transmission of the WLAN beacon improves security.
+Not really  but for sake of argument true
+9. What constraints should you consider when planning the placement of an access point?
+Coverage and interference
+10. What is beamforming?
+Creates an almost direct connection
+11. Which frequency band is less likely to suffer from co-channel interference?
+2.4
+12. What is a heat map?
+Shows signal leak through of building
+13. Widget Corporation has provided wireless access for its employees using several access points located in different parts of the building. Employees connect to the network using 802.11g-compatible network cards. On Thursday afternoon, several users report that they cannot log on to the network. What troubleshooting step would you take first?
+See how far the signal is reaching
+14. Your office block is hosting a conference event. During the morning coffee break, several guests report that they cannot access their webmail. What is the likely cause?
+Too many people on the network
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 4-4	Point Value 10
+
+
+1. What is the main advantage of circuit switched networks?
+vlans
+2. What is an Internet Exchange Point?
+Where you exit the local network
+3. What bandwidth are T1 and E1 links and why are they different?
+T is us e is Europe 5.4mbps
+4. Which 10G Ethernet and SONET standards are interoperable?
+SDH
+5. What distinguishes ATM from Ethernet?
+Atm has fixed frame sizes
+6. What is the difference between IP and MPLS routing?
+Mpls uses labels. Ip uses destination addresses
+7. What is the upper limit of a dialup modem's connection speed?
+56k
+8. What place does VDSL have in terms of access to public networks?
+Supports larger bit rates
+9. What standard(s) are intended to support "true" 4G mobile wireless services?
+LTE and Advanced
+10. Assuming that sufficient bandwidth can be provided, what factor limits the usefulness of a microwave satellite internet link? Latency and line of sight and solar flares
+
+
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 4-5	Point Value 10
+
+
+1. How does PPP work to allow a computer with a dialup modem to connect to the Internet? serial link and multi link
+
+2. What are the three main topologies for implementing a VPN?
+Host to host host to sit and site to site
+3. What ports and protocols must a firewall allow to support PPTP connections?
+Port 1723 and gre
+4. How does SSTP improve the security of a VPN connection compared to PPTP?
+Secure connection with server using https and digital certificates
+5. What IPsec mode would you use for data confidentiality on a private network?
+Transport mode
+6. What step can you take to prevent unauthorized use of a remote access server?
+Devine which user accounts have dial in rights
+7. What function does a smart jack serve?
+Loopback for provider
+8. Why would you use a T1 extender?
+Boost the signal
+9. What general steps could you take to troubleshoot a leased line exhibiting a high level of interface errors? Ping or nslookup
+
+10. A VPN user is unable to access the company's website by name. The website functions as both an intranet and an extranet. You establish that a connection can be made by IP address. What is a likely cause of this problem? Configuration doesn’t match
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 5-1	Point Value 13
+
+
+1. Why do malicious insider threats often pose greater risk than malicious users generally?
+Destruction within
+2. How do social engineering attacks succeed?
+People are vulnerable
+3. What type of activity is often a prelude to a full-scale network attack?
+NMAP footprinting
+4. Other than completely disabling the protocol, how could you mitigate the risk posed by an open port?
+Train users
+5. A security consultant tells you that the headers used by your organization's database server should be changed. Why might she recommend this?
+To avoid being targeted through banner grabbing
+6. What is the main difference between WPA and WPA2?
+The hand shake process
+7. Why might an attacker launch a jamming attack against a wireless access point?
+Ddos or deauth for evil twin
+8. What is the usual goal of an ARP spoofing attack?
+Change routes for man in the middle attack
+9. True or false? Software exploits are only possible in commercial software not bespoke software.
+false
+10. Apart from software crashes, what is a possible effect of a software exploit?
+A direct way into the network
+11. How might an attacker recover a password from an encrypted hash?
+Dictionary attacks rainbow tables or brute force
+12. How does a session hijacking attack work?
+Takes of the session so the servers think the person has been authorized
+13. Why are most network DoS attacks distributed? a message
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 5-2	Point Value 10
+
+
+1. Why is subnetting useful in secure network design?
+Keeps devisons separated to reduce viruses from being able to spread through entire network
+2. What is the purpose of a DMZ?
+Keep something or someone completely isolated
+3. How can a DMZ be implemented?
+Switch settings
+4. What distinguishes port address translation from static NAT?
+Nat establisher one to one mapping between private and public pat uses port numbers
+5. What parameters can a layer 3 firewall ruleset use?
+Ip source and destination address protocol type and port numbers
+6. What is the default rule on a firewall?
+Deny anything
+7. Other than attempting to block access to sites based on content, what other security options might be offered by internet content filters?
+Time and day and or usage
+8. What type of software would you use to protect a web server against application-level attacks?
+Host based or application based
+9. Why would you deploy a reverse proxy?
+Have web applications without exposing servers to internet
+10. What sort of maintenance must be performed on signature-based monitoring software?
+Definition and signature updates
+
+
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 5-3	Point Value 10
+
+
+1. What is the purpose of SSO?
+Authenticate one time to gain access to multiple things
+2. What type of cryptographic hash function offers the strongest security?
+SHA
+3. What key features are provided by Kerberos?
+Single sign on
+4. What is a RADIUS client and how should it be configured?
+Accepts users connections
+5. What types of EAP facilitate the secure use of MS-CHAP for user authentication?
+Peap and eap-ttls
+6. What is a pre-shared key?
+Both devices know the key
+7. What is the minimum security mechanism that an access point must support in order to use enterprise authentication?
+Wpa
+8. How does the "ARP inspection" security feature of a switch mitigate against ARP flooding?
+Maintains a trusted database
+9. True or false? A switch implementing 802.1X would be described as an "authenticator".
+true
+10. What is meant by "remediation" in the context of NAC? Client doesn’t meet the health policy
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 5-4	Point Value 8
+
+
+1. What document evaluates critical functions, processes, and assets against threats to determine risk?
+Business impact analysis
+2. What type of security audit performs active testing of security controls?
+Penetration test
+3. What type of security control provisions resources and procedures to cope with major incidents? Disaster recover plan
+
+4. What technologies can be used to make network infrastructure fault tolerant?
+redundancy
+5. Why should general security awareness training be developed and delivered separately to role-based security training?
+Role specific can be too overwhelming
+6. How is the person who first receives notification of a potential security incident designated?
+First responder
+7. True or false? Notification of data breaches should never be reported outside the organization. false
+
+8. A lawyer is demanding that network logs be provided in a computer-readable format. What principle is being invoked? ediscovery
+
+WICHITA TECHNICAL INSTITUTE
+
+Name: 						Date: 					
+
+Hand-In 5-5	Point Value 6
+
+
+1. What types of baseline are useful when performing configuration management?
+Configuration baseline software baseline
+2. In terms of day-to-day tasks, what demonstrates that effective configuration management procedures are in place?
+Job logs and sops
+3. What type of software could you use to determine IP address utilization?
+net mapper
+4. What is the difference between physical and logical schematics?
+Logical is abstract physical is actual devices 
+
+5. You are analyzing a network schematic and notice the following icon. What does it represent?
+router
+6. How might an MSA and SOW be used together?
+Msa sts standard terms of contract sow establishes tasks and deliverables
+
+
